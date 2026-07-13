@@ -376,3 +376,102 @@ body{
     text-align:center;
     color:#94a3b8;
 }
+.hackathon{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:90px 10%;
+
+    text-align:center;
+}
+
+.hackathon h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+}
+
+.hackathon-subtitle{
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+
+.hackathon-container{
+
+    display:flex;
+
+    gap:30px;
+
+    justify-content:center;
+
+    margin-bottom:50px;
+
+    flex-wrap:wrap;
+}
+
+.hack-card{
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    width:300px;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.hack-card:hover{
+
+    transform:translateY(-8px);
+}
+
+.hack-card h3{
+
+    margin-bottom:15px;
+
+    color:#60a5fa;
+}
+
+.hack-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.6;
+}
+
+.hack-btn{
+
+    padding:15px 40px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.hack-btn:hover{
+
+    background:#1d4ed8;
+}
